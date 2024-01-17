@@ -55,7 +55,18 @@
 
 */
 
-let someNumber = 33;
-let stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber)                                          
+// let someNumber = 33;
+// let stringNumber = String(someNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber)                                          
+
+
+// Operations
+
+let value  =  3;
+let negValue = -value;
+console.log(negValue);
+console.log(1 + "2" + 4);
+console.log(2 + 4 + "3")
+console.log(2 + 4 + null)
+console.log(2 + 4 + undefined);
