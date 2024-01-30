@@ -18,6 +18,10 @@
 // }
 // console.log(regularUser.fullName?.userFullName.firstName);
 
+/**
+ * ?Object.assign()
+ *  
+ */
 // const target = { a: 1, bee: 2, foo: 4 };
 // const source = { bee: 3, foo: 5, d: 4 };
 // const source2 = { fee: 4, bee: 5, foo: 7 };
