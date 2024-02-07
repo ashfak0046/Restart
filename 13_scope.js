@@ -42,22 +42,23 @@
 
 //     if(username === "Mahbub"){
 //         const website = "https://website.com";
-//         console.log(username + website);
+//         console.log(username + website); 
 //     }
 //     // console.log(website);
 //  }
 
 //  console.log(username)
 
-console.log(addNumbers(3));
-console.log(addNumbers2(6));
+// console.log(addNumbers(3));
+// console.log(addNumbers2(6));
 
+// function addNumbers(num) {
+//   return num + 1;
+// }
 
-function addNumbers(num) {
-  return num + 1;
-}
+// const addNumbers2 = function (num) {
+//   //? function which is stored in a variable is not possible before initialization
+//   return num + 2;
+// };
 
-const addNumbers2 = function (num) {
-  //? function which is stored in a variable is not possible before initialization
-  return num + 2;
-};
+ 
