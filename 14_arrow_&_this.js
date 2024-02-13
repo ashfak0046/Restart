@@ -24,23 +24,23 @@
 // }
 // one();
 
-const obj ={
-    name:"obj",
-    getThis(){
-        return this
-    }
-}
+// const obj ={
+//     name:"obj",
+//     getThis(){
+//         return this
+//     }
+// }
 
-const obj2 = {name:"obj2"};
-obj2.getThis = obj.getThis;
-console.log(obj2.getThis());
+// const obj2 = {name:"obj2"};
+// obj2.getThis = obj.getThis;
+// console.log(obj2.getThis());
 
 //* arrow function
-// const chai = () => {
-//     let username = "Mahbub";
-//     console.log(this);
-// }
-// chai();
+const chai = () => {
+     let username = "Mahbub";
+    console.log(this);
+}
+chai();
 
 // const summation = (num1, num2) => {
 //   return num1 + num2;
@@ -58,7 +58,7 @@ console.log(obj2.getThis());
 // const result2 = (num1, num2) => ({username:"Mahi"});
 
 // console.log(result2(4,2));
-let username = "Mahi"
-const scope = () =>  console.log(username);
+// let username = "Mahi"
+// const scope = () =>  console.log(username);
 
-scope();
+// scope();

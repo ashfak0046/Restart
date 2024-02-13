@@ -24,18 +24,19 @@
 
 // createFunction1();
 
-// function one(){
-//     const username = "Ashfak";
+function one(){
+     let username = "Ashfak";
 
-//     function two(){
-//         const website = "youtube.com";
-//         console.log(username);
-//     }
-//     // console.log(website);
-//     two();
-// }
+    function two(){
+        const website = "youtube.com";
+        // console.log(username);
+    }
+    // console.log(website);
+    two();
+}
 
-//  one();
+ one();
+ console.log(username);
 
 //  if(true){
 //     const username = "Mahbub"
