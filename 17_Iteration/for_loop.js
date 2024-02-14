@@ -11,26 +11,27 @@
 //     for (let j = 0; j < 10; j++) {
 //         console.log(`${i} * ${j} = ${i * j}`);
 //     }
-    
+
 // }
 
 // const superHeros = ["Flash", "Batman", "Superman", "Aquaman"];
-// const superPower = ["Speed","Money","Strong", "Water Control"]
+// const superPower = ["Speed", "Money", "Strong", "Water Control"];
 
-// for(let i =0; i < superHeros.length; i++){
-//     const name = superHeros[i]
-//     for(let j = 0; j < superPower.length; j++) {
-//         const power = superPower[j]
-//         console.log(`${name} has ${power} power`);
+// for (let i = 0; i < superHeros.length; i++) {
+//   const name = superHeros[i];
+//   for (let j = 0; j < superPower.length; j++) {
+//     const power = superPower[j];
+//     if (name === power) {
+//       console.log(`${name} has ${power} power`);
 //     }
+//   }
 // }
 
-const superHeros = ["Flash", "Batman", "Superman", "Aquaman"];
+const superHeros = ["Flash", "Batman", "Superman", "Aquaman", "Spiderman","Thor"];
 const superPower = ["Speed", "Money", "Strong", "Water Control"];
 
 for (let i = 0; i < superHeros.length; i++) {
-    const name = superHeros[i];
+    const name = superHeros[i] ;
     const power = superPower[i]; // Use the same index for superPower array
-    console.log(`${name} has ${power} power`);
+    console.log(`${name} has ${power ?? "no"} power`);
 }
-

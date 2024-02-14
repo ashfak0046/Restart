@@ -25,7 +25,7 @@
 // createFunction1();
 
 function one(){
-     let username = "Ashfak";
+      username = "Ashfak";
 
     function two(){
         const website = "youtube.com";

@@ -19,13 +19,14 @@
 //? Nullish Coalescing Operator -> ??: null & undefined
 
 let value = undefined;
-value = value ?? 15;
+// value = value ?? null;
 // value = null ?? "" ?? 3;
 // value = null ?? {} ?? 3;
+// value = null ?? undefined ?? 3;
 // value = null ?? function(){} ?? 3;
 // value = null ?? false ?? 3;
-// value = null ?? NaN ?? 3;
-value = null ?? 0 ?? 3;
+value = null ?? NaN ?? 3;
+// value = null ?? 0 ?? 3;
 console.log(value)
 
 //! Terniary Operators: condition ? true : false
