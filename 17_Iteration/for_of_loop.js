@@ -26,22 +26,22 @@
 //   }
 // }
 
-const map = new Map();
-map.set("name", "Ashfak");
-map.set("age", "20");
-map.set("email", "mahi@gmail.com");
+// const map = new Map();
+// map.set("name", "Ashfak");
+// map.set("age", "20");
+// map.set("email", "mahi@gmail.com");
 
-for (const [key, info] of map) {
-  console.log(`User info: ${key} : ${info}`);
-}
+// for (const [key, info] of map) {
+//   console.log(`User info: ${key} : ${info}`);
+// }
 
 const obj = {
     name: "Superhero",
     power:"Everything"
 }
 
-for (const value of Object.values(obj)){
-    console.log(`Superhero value: ${value}`);
+for (const [value,key] of Object.values(obj).entries()){
+    console.log(`Superhero value: ${value}` + `: ${key}`);
 }
 
 // const numbers = 13453465765645;
