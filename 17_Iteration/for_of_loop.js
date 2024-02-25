@@ -36,16 +36,35 @@
 // }
 
 const obj = {
-    name: "Superhero",
-    power:"Everything"
-}
+  name: "Superhero",
+  power: "Everything",
+};
 
-for (const [value,key] of Object.values(obj).entries()){
-    console.log(`Superhero value: ${value}` + `: ${key}`);
+for (const [value, key] of Object.values(obj).entries()) {
+  console.log(`Superhero value: ${value}` + `: ${key}`);
 }
 
 // const numbers = 13453465765645;
 
 // for (const value of numbers) {
-//  console.log(`value: ${value}`);   
+//  console.log(`value: ${value}`);
 // }
+
+const priceOfGoods = {
+  product_1: {
+    name: "Mobile",
+    price: 30000,
+  },
+  product_2: {
+    name: "Laptop",
+    price: 60000,
+  },
+  product_3: {
+    name: "Mobile",
+    price: 70000,
+  }
+};
+
+for (const  [key, item] of Object.entries(priceOfGoods)) {
+    console.log(`${key} priceOf:${item.name}`)
+}
