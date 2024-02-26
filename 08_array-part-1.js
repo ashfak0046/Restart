@@ -14,9 +14,9 @@ console.log(numbers['length']);
 // console.log(newArray);
 
 console.log("Original array: " + numbers);
-// const newArray = numbers.slice(1,3);
-// console.log(newArray);
-// console.log("After slice: " + numbers);
+const newArray = numbers.slice(1,3);
+console.log(newArray);
+console.log("After slice: " + numbers);
 
 const newArray2 = numbers.splice(1,3);
 console.log(newArray2);
