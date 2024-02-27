@@ -33,13 +33,13 @@ priceOfProduct.forEach((product) => {
 //     console.log(value)
 // })
 
-const Shopping = ["Car","Bike","House","Money"];
-const copyShopping = [];
+// const Shopping = ["Car","Bike","House","Money"];
+// const copyShopping = [];
 
-function copyArray (items){
-    copyShopping.push(items);
-}
+// function copyArray (items){
+//     copyShopping.push(items);
+// }
 
-Shopping.forEach(copyArray);
+// Shopping.forEach(copyArray);
 
-console.log(copyShopping);
+// console.log(copyShopping);
