@@ -12,16 +12,14 @@ form.addEventListener("submit", function (e) {
     height === undefined ||
     height === "" ||
     height <= 0 ||
-    isNaN(height) ||
-    typeof height === "string"
+    isNaN(height) 
   ) {
     results.innerHTML = `Please give a valid height`;
   } else if (
     weight === undefined ||
     weight === "" ||
     weight <= 0 ||
-    isNaN(weight) ||
-    typeof weight === "string"
+    isNaN(weight)
   ) {
     results.innerHTML = `Please give a valid weight`;
   } else {
