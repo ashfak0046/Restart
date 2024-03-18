@@ -60,8 +60,8 @@ function checkGuess(guess) {
 }
 
 function displayGuess(guess) {
-  userInput.innerHTML = "";
-  guessSlot.innerHTML += `${guess},`;
+  userInput.value = "";
+  guessSlot.innerHTML = guessSlot.innerHTML + `${guess},`;
   numberGuess++;
   remaining.innerHTML = `${11 - numberGuess}`;
 }
@@ -70,7 +70,7 @@ function displayMessage(message) {
 }
 
 function endGame() {
-  userInput.innerHTML = "";
+  userInput.value = "";
   userInput.setAttribute("disabled", "");
   p.classList.add("button");
   p.innerHTML = `<h2 id="newGame"> Start New Game</h2>`;
@@ -84,7 +84,7 @@ function startGame() {
     randomNumber = parseInt(Math.random() * 100 + 1);
     prevGuess = [];
     numberGuess = 1;
-    guessSlot.innerHTML = "";
+    guessSlot.value = "";
     remaining.innerHTML = `${11 - numberGuess}`;
     userInput.removeAttribute("disabled");
     startOver.removeChild(p);
