@@ -24,7 +24,7 @@ if (playGame) {
   submit.addEventListener("click", function (e) {
     e.preventDefault();
     const guess = parseInt(userInput.value);
-    validateGuess(guess);
+    validateGuess(guess); // 1
   });
 }
 
@@ -76,7 +76,7 @@ function endGame() {
   p.innerHTML = `<h2 id="newGame"> Start New Game</h2>`;
   startOver.appendChild(p);
   playGame = false;
-  newGame();
+  startGame();
 }
 function startGame() {
   const newButton = document.querySelector("#newGame");
